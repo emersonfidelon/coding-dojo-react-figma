@@ -1,10 +1,13 @@
-import { AddMoney, Container, WelcomeMessage } from './styles';
+import { AddMoney, Container, WelcomeMessage, MenuContainer, Menu } from './styles';
+import menuIcon from './menu-item.png';
 
 export const Header = () => {
     return (
         <Container>  
-            <h3>Menu</h3>
-            <WelcomeMessage>Hello Sandra,</WelcomeMessage>
+            <MenuContainer>
+                <Menu src={menuIcon}></Menu>
+                <WelcomeMessage>Hello Sandra,</WelcomeMessage>
+            </MenuContainer>
             <AddMoney>Add money</AddMoney>
         </Container>
     )

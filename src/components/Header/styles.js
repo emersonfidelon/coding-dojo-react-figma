@@ -6,10 +6,11 @@ export const Container = styled.div`
     align-items:center;
     box-sizing:border-box;
     color:white;
-    padding: 20px;
+    padding: 15px;
 `;
 
 export const WelcomeMessage = styled.span`
+    font-size:20px; 
 `;
 
 export const AddMoney = styled.button`
@@ -21,3 +22,14 @@ export const AddMoney = styled.button`
     border-radius: 8px;
     background-color: #FF3B30;
   `;
+
+export const MenuContainer = styled.div`
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+`;
+
+export const Menu = styled.img`
+    height: 48px;
+    margin-right: 16px;
+`;
