@@ -17,6 +17,7 @@ export const HeaderNavigation = ({ title }) => {
                     Back
                 </ReturnButtonContainer>
                 <Title>{title}</Title>
+                <div />
             </Content>
         </Container>
     )

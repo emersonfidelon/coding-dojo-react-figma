@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
+    width: ${props => props.full ? '100%' : 'initial'};
     border: 1px solid ${props=> props.bg || '#FF2E63'};
     padding: 16px 20px;
     border-radius: 10px;
@@ -9,6 +10,7 @@ export const Button = styled.button`
     font-size: 16px;
     line-height: 28px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     background: ${props=> props.bg || '#FF2E63'};

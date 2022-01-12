@@ -11,9 +11,10 @@ export const Container = styled.div`
 `;
 
 export const Avatar = styled.img`
-    width: 48px;
-    height: 48px;
+    width: ${props => props.width || 48}px;
+    height: ${props => props.height || 48}px;
     border-radius: 50%;
+    border: ${props => props.ring ? 'solid 25px #192259' : 'none'};
 `;
 
 export const Content = styled.div`
