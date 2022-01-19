@@ -4,6 +4,7 @@ import {
     Content,
     ReturnButton,
     ReturnButtonContainer,
+    RightContent
 } from './styles';
 
 import backIcon from '../../assets/arrow-left.png'
@@ -12,12 +13,12 @@ export const HeaderNavigation = ({ title }) => {
     return (
         <Container>
             <Content>
-                <ReturnButtonContainer>
-                    <ReturnButton src={backIcon} />
+                <ReturnButtonContainer to="/">
+                    <ReturnButton alt='Back' src={backIcon} />
                     Back
                 </ReturnButtonContainer>
                 <Title>{title}</Title>
-                <div />
+                <RightContent />
             </Content>
         </Container>
     )
