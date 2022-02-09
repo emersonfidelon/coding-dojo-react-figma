@@ -14,6 +14,7 @@ const ItemsList = ({transactions}) =>{
             <label>Sort by:</label>
             <SortSelect>
               <option value="recent">Recent</option>
+              <option value="old">Old</option>
             </SortSelect>
           </SelectContainer>
         </Row>

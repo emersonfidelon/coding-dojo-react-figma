@@ -14,7 +14,7 @@ export const Button = styled.button`
     align-items: center;
     text-align: center;
     background: ${props=> props.bg || '#FF2E63'};
-    color: ${props=> props.color || 'white'};
+    color: ${props=> props.color || '#FFFFFF'};
 `;
 
 export const ButtonOutline = styled(Button)`

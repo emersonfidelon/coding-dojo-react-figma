@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <Container data-testid="header">  
             <MenuContainer>
-                <Menu src={menuIcon}></Menu>
+                <Menu data-testid="menu-icon" src={menuIcon} />
                 <WelcomeMessage>Hello Sandra,</WelcomeMessage>
             </MenuContainer>
             <Link to="/new">

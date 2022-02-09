@@ -11,7 +11,7 @@ import { Badge } from '../Badge';
 
 export const Item = ({ avatar, userName, status, balance, indexColor }) => {
     return (
-        <Container indexColor={indexColor}>
+        <Container indexColor={indexColor} data-testId="transaction-item">
             <ContentInfo>
                 <Avatar src={avatar} />                
                 <Content>

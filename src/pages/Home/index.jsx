@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Wrapper>
       <Header />
-      <Balance size="50px" />
+      <Balance balance={200.000} size="50px" />
       <Container justify="space-between">
         <Button>Request money</Button>
         <ButtonOutline color="grey">Send money</ButtonOutline>
